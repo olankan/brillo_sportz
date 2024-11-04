@@ -29,11 +29,7 @@ class HomeScreen extends ConsumerWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                ref
-                        .watch(signUpStateNotifierProvider)
-                        .userNameController!
-                        .text
-                        .isEmpty
+                username.isEmpty
                     ? Text('Welcome back,',
                         style: CustomTextStyles(context).boldH4Omnes_32x7)
                     : Text('Hi, $username',
