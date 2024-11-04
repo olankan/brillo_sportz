@@ -4,7 +4,6 @@ import 'package:brillo_sportz/features/dashboard/providers/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
@@ -56,7 +55,7 @@ class BottomBar extends ConsumerWidget {
               title: Text(
                 "Home",
                 style: CustomTextStyles(context).body1Poppins_12x5.copyWith(
-                      color: PrimaryColors.black,
+                      color: ThemeHelper(context).tertiary,
                     ),
               ),
               selectedColor: Color(0xff0C81E4).withOpacity(0.1),
@@ -74,7 +73,7 @@ class BottomBar extends ConsumerWidget {
               title: Text(
                 "Buddies",
                 style: CustomTextStyles(context).body1Poppins_12x4.copyWith(
-                      color: PrimaryColors.black,
+                      color: ThemeHelper(context).tertiary,
                     ),
               ),
               selectedColor: Color(0xff0C81E4).withOpacity(0.1),
@@ -91,7 +90,7 @@ class BottomBar extends ConsumerWidget {
               title: Text(
                 "Discover",
                 style: CustomTextStyles(context).body1Poppins_12x4.copyWith(
-                      color: PrimaryColors.black,
+                      color: ThemeHelper(context).tertiary,
                     ),
               ),
               selectedColor: Color(0xff0C81E4).withOpacity(0.1),
@@ -108,7 +107,7 @@ class BottomBar extends ConsumerWidget {
               title: Text(
                 "Settings",
                 style: CustomTextStyles(context).body1Poppins_12x4.copyWith(
-                      color: PrimaryColors.black,
+                      color: ThemeHelper(context).tertiary,
                     ),
               ),
               selectedColor: Color(0xff0C81E4).withOpacity(0.1),

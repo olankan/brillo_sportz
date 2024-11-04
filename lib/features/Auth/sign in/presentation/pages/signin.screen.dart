@@ -2,7 +2,6 @@ import 'package:brillo_sportz/core/theme/theme_helper/theme_helper.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_Circular_Progress_Indicator/circular_progress_indicator.widget.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_container/custom_container.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_field/custom_text_field.widget.dart';
-import 'package:brillo_sportz/core/utils/utils/image_constant.dart';
 import 'package:brillo_sportz/features/Auth/sign%20in/presentation/providers/signInStateProvider.dart';
 import 'package:brillo_sportz/core/theme/widgets/customSnackbar/customSnackbar.widget.dart';
 import 'package:flutter/material.dart';

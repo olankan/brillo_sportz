@@ -3,7 +3,6 @@ import 'package:brillo_sportz/core/theme/widgets/customSnackbar/customSnackbar.w
 import 'package:brillo_sportz/core/theme/widgets/custom_container/custom_container.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_field/custom_text_field.widget.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_style/custom_text_style.dart';
-import 'package:brillo_sportz/features/Auth/sign%20up/presentation/pages/signup.screen.dart';
 import 'package:brillo_sportz/features/Auth/sign%20up/presentation/providers/signUpStateProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

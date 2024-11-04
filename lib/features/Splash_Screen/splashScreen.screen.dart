@@ -1,12 +1,9 @@
 import 'package:brillo_sportz/core/theme/theme_helper/theme_helper.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_style/custom_text_style.dart';
-import 'package:brillo_sportz/core/utils/utils/image_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:jwt_decoder/jwt_decoder.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -30,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       print('Error getting email: $e');
       return null;
     }
+    return null;
   }
 
   @override

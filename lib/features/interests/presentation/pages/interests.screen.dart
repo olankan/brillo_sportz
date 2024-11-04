@@ -1,9 +1,6 @@
-import 'package:brillo_sportz/core/Routes/goRouter.dart';
 import 'package:brillo_sportz/core/theme/widgets/customSnackbar/customSnackbar.widget.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_container/custom_container.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_style/custom_text_style.dart';
-import 'package:brillo_sportz/features/Splash_Screen/splashScreen.screen.dart';
-import 'package:brillo_sportz/features/interests/domain/models/interest.model.dart';
 import 'package:brillo_sportz/features/interests/presentation/widgets/interestTile.dart';
 import 'package:brillo_sportz/features/interests/provider/pickedInterestStateNotifier.dart';
 import 'package:flutter/material.dart';

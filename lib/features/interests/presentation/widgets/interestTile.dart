@@ -1,6 +1,4 @@
-import 'dart:ui';
 
-import 'package:brillo_sportz/core/theme/widgets/custom_container/custom_container.dart';
 import 'package:brillo_sportz/core/theme/widgets/custom_text_style/custom_text_style.dart';
 import 'package:brillo_sportz/features/interests/domain/models/interest.model.dart';
 import 'package:flutter/material.dart';
